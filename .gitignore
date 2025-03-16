@@ -25,4 +25,4 @@ go.work.sum
 .env
 
 # Temporary directories
-backend/tmp/
+backend/tmp
