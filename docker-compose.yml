@@ -11,7 +11,7 @@ services:
       - ./backend:/app
     environment:
       - GO_ENV=development
-    command: sh -c "go mod tidy && go mod download && air -c .air.toml"
+    command: air -c .air.toml
     depends_on:
       - db
 
